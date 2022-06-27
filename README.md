@@ -7,3 +7,11 @@
 
 API Prefix : /api/v1
 
+List of endpoints :
++ [GET] /orders -> To view order history
++ [GET] /products -> To view product list
++ [POST] /carts -> To add a product to cart
++ [DELETE] /cartitems/{id}?{cart_id} -> To remove a product from cart
++ [POST] /orders -> To make an order
++ [PATCH] /orders/{id} -> To cancel an order
++ [PATCH] /customer/edit -> To update customer profile
